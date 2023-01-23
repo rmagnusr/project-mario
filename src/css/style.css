@@ -73,7 +73,7 @@ max-width: 500px;
   position: absolute; /*places the element on another plane*/
   z-index: -1; /*put the element behind*/
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   overflow: hidden;
   background-color: black;
   display: flex;
