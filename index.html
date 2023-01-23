@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="src/imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <title>The Super Mario Bros. Movie</title>
+  </head>
+  <body>
+    <div class="background-video">
+      <video class="video" autoplay loop muted>
+        <source src="src/video/video-mario.mp4" type="video/mp4" />
+      </video>
+    </div> 
+    <header class="header">
+      <a>
+        <img
+          class="logo"
+          src="src/imgs/logo-chapeu-mario.png"
+          alt="logo chapéu mario"
+        />
+      </a>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Details</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="information">
+        <img
+          class="image-title"
+          src="src/imgs/titulo.png"
+          alt="imagem do título do filme"
+        />
+        <p class="description">
+          The story of The Super Mario Bros. on their journey through the Mushroom Kingdom.<br><br>
+
+A Brooklyn Plumber named Mario, travels through the Mushroom Kingdom with a Princess named Peach and an Anthropomorphic Mushroom named Toad to find Mario's Brother, Luigi, and to save the world from a ruthless fire breathing Koopa named Bowser.
+        </p>
+        <button class="button-trailer">WATCH TRAILER</button>
+
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close-modal">X</span>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TnGl01FkMMo" title="Oficial Trailer" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <img class="mario" src="src/imgs/super-mario-chars.png" />
+    </main>
+    <script src="src/JS/index.js"></script>
+  </body>
+</html>
